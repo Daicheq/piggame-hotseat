@@ -12,6 +12,7 @@ const score1El = document.querySelector('#score--1');
 let activePlayer, currentScore, scores, playing;
 
 const init = () => {
+  diceImg.classList.add('hidden');
   activePlayer = 0;
   currentScore = 0;
   scores = [0, 0];
